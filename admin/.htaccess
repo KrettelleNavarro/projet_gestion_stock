@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "D:\Formation CDA ter\Projet Gestion de Stock complet\projet_gestion_stock\admin"
+Require valid-user
