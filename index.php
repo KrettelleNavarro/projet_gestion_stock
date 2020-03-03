@@ -1,1 +1,4 @@
-<?php echo'Bienvenue sur mon projet';
+<?php 
+
+header ('Location: views/index.php');
+exit();
