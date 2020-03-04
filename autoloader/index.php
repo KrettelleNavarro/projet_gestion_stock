@@ -1,1 +1,3 @@
-<?php echo'Bienvenue sur mon projet';
+<?php
+    header ('Location: ../index.php');
+    exit();
