@@ -1,0 +1,61 @@
+   
+a {
+    text-decoration: none;
+}
+   
+   /* ------  header --------*/
+
+    .btn-outline-blanc{
+        color: white;
+        border: solid 0.5px white;
+        vertical-align: top!important ;
+    }
+    .btn-outline-blanc:hover{
+        color:#343a40;
+        background-color: white;
+    }
+    nav i:hover {
+        color: grey;
+    }
+/* -----   fin header ------- */
+
+    /*  ----------- footer ---------- */
+
+    /*footer {
+        bottom: 0;
+        position: absolute;}*/
+    
+    div.fw-footer {
+            margin-bottom: 0;
+            width: 100%;
+            padding: 2em 0 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+    .btw { border-top: solid white 0.5px; 
+
+    }
+
+    article {
+        margin: 0 auto;
+       
+    }
+    footer p {
+        margin: 0;
+    }
+    #resaux i {
+        font-size: 20px;
+        margin-bottom: 10px;
+       
+    }
+    #resaux a{
+        color: white;
+    }
+
+    #resaux a:hover{
+        color: grey;
+    }
+ 
+    /* ----  fin footer ------*/

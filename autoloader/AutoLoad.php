@@ -6,22 +6,16 @@
    * @return none
    * Charge par require_once le bon script php
    */
-  
     function app_autoloader($class) {
+        // var_dump($class);
         $pathFind = false;
         for ($i = 1; $i <= 5; $i++) {
-            var_dump($i);
             if ($i <= 1) {
                 $path = "";
             } else {
                 $path = $path . "../";
             }
-            // Classes
-            // if (file_exists($path . "classes/$class.php")) {
-            //     require_once($path . "classes/$class.php");
-            //     $pathFind = true;
-            // }
-            // Controllers
+        // Controllers - TODO
             if (file_exists($path . "controllers/$class.php")) {
                 require_once($path . "controllers/$class.php");
                 $pathFind = true;
